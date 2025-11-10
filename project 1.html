@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Mishab</title>
+    <link rel="shortcut icon" href="WhatsApp Image 2025-09-03 at 12.28.32_a3b90294.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="project 1.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   <div class="A">
+       MISHAB K
+    <nav class="a1">
+       <a href="#HOME" class="home"> HOME</a>
+      <a href="#ABOUT"> ABOUT</a>
+      <a href="#SKILL"> SKILL</a>
+      <a href="#WORK">WORK</a>  
+      <a href="#CONTACT">CONTACT</a>
+    </nav>
+   </div>
+   <section id="HOME"  class="home1">
+      <div  class="home2">
+         <h1 class="reveal">Hi,I'm Muhammad Mishab</h1>
+         <h3><span id="typing-subtitle"></span></h3>
+         <p>
+  I am a student and I am learning web development. I study HTML, CSS, and JavaScript to build 
+  websites and improve my coding skills. I enjoy practicing and creating simple projects to 
+  learn step by step and grow as a developer.
+</p>
+           <div class="btn-box">  
+            <a href="path/to/your-cv.pdf" download><span>Download CV</span></a>
+            <a href="#CONTACT"><span>Contact</span></a>
+           </div>
+         <div class="a3">
+            <a href="https://www.instagram.com/mis_hab.7?igsh=M3h3aXhwb3hheHhx"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="https://www.facebook.com/share/1GV2tnQih2/"><i class='bx bxl-facebook-square' ></i></a>
+            <a href="https://www.linkedin.com/in/muhammad-mishab-8b3258379?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class='bx bxl-linkedin-square' ></i></a>
+         </div>
+      </div>
+   </section>
+   <div class="B"> <!-- This image might be decorative. Consider moving it into CSS for better control -->
+       <!-- <div class="b1"><img src=" WhatsApp Image 2025-09-03 at 12.33.58_781da928.jpg" alt="A portrait of Muhammad Mishab"></div> -->
+
+   </div>
+   <section id="ABOUT" class="C reveal">
+      <div class="c1">
+         <!-- <img src="WhatsApp Image 2025-09-03 at 12.28.32_a3b90294.jpg" alt="#"> -->
+         <div class="b1">
+            <h2> About Me</h2>
+            <h5>Developer & Designer</h5>
+            <p>I am a web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations. I can provide clean code and pixel perfect design. I also make the website mgre & more interactive with web animations.A responsive design makes your website accessible to all users, regardless of their device.</p>
+            <button type="button">Let's Talk</button>
+         </div>
+
+      </div>
+
+    </section>
+
+<section id="SKILL" class="reveal">
+    <h1 class="section-heading">Skills</h1>
+    <div class="skills">
+  <div class="html">
+    <h3 >HTML <i class='bx bxl-html5' ></i></h3>
+    <p>​I build clean, accessible, and SEO-friendly web pages using HTML. I specialize in creating logical document structures with semantic markup <br> and developing user-friendly forms.</p>
+  </div>
+  <div class="css">
+    <h3 >CSS <i class='bx bxl-css3' ></i></h3>
+    <p>I use CSS to craft clean and modern user interfaces. I excel at building responsive layouts with Flexbox and Grid, and I can create custom animations and styles to enhance the user experience.</p>
+    
+  </div>
+  <div class="js">
+    <h3>JavaScript <i class='bx bxl-javascript' ></i></h3>
+   <p>My JavaScript expertise extends to modern frameworks and libraries. I have experience with asynchronous programming, handling events, and using tools to build robust and scalable front-end applications.</p>
+  </div>
+</div>
+</section>
+
+<section id="WORK" class="reveal">
+   <h1 class="section-heading">Works</h1>
+    <div class="w">
+   <img src="boking photo.jpg" alt="Booking website project screenshot">
+    <img src="nav bar photo.jpg" alt="Navigation bar project screenshot">
+  </div>
+</section>
+
+  <div id="CONTACT" class="form reveal">
+   <form id="contact-form" action="" method="post">
+      <h1>CONTACT</h1>
+       <div class="input">
+         <input type="text" placeholder="Username" id="fullName" required>
+         <i class='bx bx-user' ></i>
+      </div>
+      <div class="input email">
+         <input type="email" placeholder="Email" id="email_id" required>
+         <i class='bx bx-envelope' ></i>
+      </div>
+      <div class="input text">
+         <input type="number" placeholder="Phone number" id="phone_no" required>
+      <i class='bx bx-mobile-alt' ></i>
+      </div>
+      <!-- <div class="remember">
+        <label for=""><input type="checkbox">Remember me</label>
+        <a href="#">Forgot password?</a>
+      </div> -->
+      <div class="tex">
+        <textarea id="message" cols="42" rows="10" placeholder="Your Message" required></textarea>
+      </div>
+      <button type="submit"  class="btn" onclick="sendmail()">submit</button>
+   </form>
+
+  </div>
+
+  <script src="project 1.js"></script>
+  <script type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function(){
+        emailjs.init({
+          publicKey: "aw6ic3jTmZSr0nmUh",
+        });
+    })();
+  </script>
+  <!-- Typed.js for the typing animation -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <script>
+    // --- Smooth Scrolling & Active Nav Link ---
+    document.addEventListener('DOMContentLoaded', () => {
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.a1 a');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (pageYOffset >= sectionTop - 150) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').includes(current)) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    });
+
+    // --- Scroll Reveal Animation ---
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show');
+            }
+        });
+    });
+    const revealElements = document.querySelectorAll('.reveal');
+    revealElements.forEach((el) => observer.observe(el));
+
+    // --- Typing Animation ---
+    var typed = new Typed('#typing-subtitle', {
+      strings: ['Web Developer', 'UI/UX Enthusiast', 'Frontend Coder'],
+      typeSpeed: 70,
+      backSpeed: 50,
+      backDelay: 1000,
+      loop: true
+    });
+
+  </script>
+</body>
+</html>
